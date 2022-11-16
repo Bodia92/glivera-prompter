@@ -163,7 +163,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Jot It Down!",
+            "subtitle": "Step 1:",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -172,8 +173,9 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Pop It Up!",
+            "subtitle": "Step 2:",
+            "text": "<p>Simply slide your Prompter Board over any lens using one of our SafeGrip® attachments. You are now ready to film!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -181,8 +183,9 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Crush It!",
+            "subtitle": "Step 3:",
+            "text": "<p>Shoot noticeably cleaner videos with less re-takes! Our Prompter Board is the perfect tool for anyone creating content!<\/p>",
             "link_label": "",
             "link": ""
           }

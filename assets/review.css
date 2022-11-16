@@ -1,0 +1,63 @@
+.review_body {
+    position: relative;
+    min-height: 47rem;
+    padding: 8.2rem 7rem 4rem 0;
+}
+.review_body::after {
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100%;
+    -webkit-box-shadow: -1px 1px 13.8rem 1.2rem rgba(70, 161, 250, 0.54);
+    box-shadow: -1px 1px 13.8rem 1.2rem rgba(70, 161, 250, 0.54);
+    background-color: #fe880d;
+    background-image: -o-linear-gradient(35deg, #ffba00 0%, #ff6e02 100%);
+    background-image: linear-gradient(55deg, #ffba00 0%, #ff6e02 100%);
+    content: "";
+}
+
+.review_img_w {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 34%;
+    height: clamp(10px, 38vw, 57.4rem);
+}
+
+.review_decor_left {
+    z-index: -1;
+    position: absolute;
+    left: -1rem;
+    bottom: 2rem;
+    width: 11.2%;
+    height: clamp(1px, 15vw, 21.4rem);
+    opacity: 0.4;
+}
+
+.review_decor_right {
+    z-index: -1;
+    position: absolute;
+    right: 1.6rem;
+    top: 0;
+    width: 27%;
+    height: clamp(1px, 26.4vw, 39.8rem);
+    opacity: 0.4;
+}
+
+.review_content {
+    width: 63.4%;
+}
+
+.review_content_text {
+    font-size: 6rem;
+    letter-spacing: 1.2px;
+    line-height: 0.7;
+    font-family: "DansHandWriting", sans-serif;
+    color: #ffffff;
+}
