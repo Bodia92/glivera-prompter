@@ -1,3 +1,142 @@
+.section {
+    position: relative;
+    width: 100%;
+    /* padding: 15rem 2rem; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+}
+/* @media screen and (min-width: 1024px) {
+    .section {
+        padding: 15rem 2rem;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .section {
+        padding: 4rem 2rem;
+    }
+} */
+.section.hero_mod {
+    padding-top: 21rem;
+}
+.section.indent_mod {
+    padding: 0 2rem 15rem;
+}
+
+.section_in {
+    max-width: 144rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.section_in.v2_mod {
+    max-width: 162rem;
+}
+
+.section_title {
+    font-weight: 400;
+    text-align: center;
+}
+@media screen and (min-width: 1024px) {
+    .section_title {
+        font-size: 7rem;
+        letter-spacing: 0.55rem;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .section_title {
+        font-size: 4.2rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .section_title.sm_mod {
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .section_title.sm_mod {
+        font-size: 2.6rem;
+    }
+}
+.section_title.lg_mod {
+    line-height: 0.7;
+}
+@media screen and (min-width: 1024px) {
+    .section_title.lg_mod {
+        font-size: 15.9rem;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .section_title.lg_mod {
+        font-size: 5.2rem;
+    }
+}
+.section_title.font_mod {
+    font-family: "DansHandWriting", sans-serif;
+}
+@media screen and (min-width: 1024px) {
+    .section_title.align_mod {
+        text-align: left;
+    }
+}
+.section_title.offset_mod {
+    margin-bottom: 3.2rem;
+}
+.section_title.offset_2_mod {
+    margin-bottom: 0.6rem;
+}
+.section_title span.size_in {
+    font-size: 1.3em;
+}
+.section_title span.size_in_2 {
+    font-size: 1.9em;
+    letter-spacing: -0.1em;
+}
+.section_title.offset_1_mod {
+    margin-bottom: 4rem;
+}
+
+.section_descr {
+    font-size: 3rem;
+}
+.section_descr.center_mod {
+    text-align: center;
+}
+.section_descr.offset_mod {
+    margin-bottom: 5.8rem;
+}
+
+.section_subtitle {
+    margin-bottom: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.55rem;
+    color: #fe880d;
+    text-align: center;
+    text-transform: uppercase;
+}
+@media screen and (min-width: 1024px) {
+    .section_subtitle.v2_mod {
+        font-size: 2.4rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .section_subtitle.align_mod {
+        text-align: left;
+    }
+}
+.section_subtitle.offset_mod {
+    margin-bottom: 0.2rem;
+}
+@media screen and (min-width: 1024px) {
+    .section_subtitle {
+        font-size: 2.8rem;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .section_subtitle {
+        font-size: 1.1rem;
+    }
+}
+
 .product_preview {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -44,7 +183,7 @@
     align-items: center;
 }
 
-.review {
+.review_body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

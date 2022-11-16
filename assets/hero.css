@@ -1,0 +1,162 @@
+.hero_mod {
+    /* position: relative; */
+}
+
+.hero {
+    position: relative;
+    /* padding: 4.6rem 0 10rem; */
+}
+
+.hero:before,
+.hero:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -8.8rem;
+    right: -8.8rem;
+    border-radius: 2.6rem 2.6rem 0 0;
+}
+.hero:before {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(50%, rgba(255, 255, 255, 0.5)),
+        to(#a8d3fd)
+    );
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.5) 50%, #a8d3fd 100%);
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 50%, #a8d3fd 100%);
+    -webkit-box-shadow: 0 0.1rem 4rem 0.6rem rgba(70, 161, 250, 0.72);
+    box-shadow: 0 0.1rem 4rem 0.6rem rgba(70, 161, 250, 0.72);
+    z-index: -1;
+}
+.hero:after {
+    top: auto;
+    bottom: -6rem;
+    left: -50vw;
+    right: -50vw;
+    height: 15rem;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(255, 255, 255, 0.0001)),
+        color-stop(50%, #ffffff)
+    );
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.0001) 0%, #ffffff 50%);
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.0001) 0%, #ffffff 50%);
+}
+@media screen and (min-width: 1024px) {
+    .hero.height_mod {
+        min-height: 170rem;
+    }
+}
+
+.hero_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(transparent), color-stop(10%, black));
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 10%);
+    z-index: -1;
+}
+
+.btn_pointer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -17.4rem;
+    margin-left: -67.6rem;
+    font-size: 5.8rem;
+    color: #fe880d;
+    font-family: "DansHandWriting", sans-serif;
+    letter-spacing: 0.006rem;
+    -webkit-transform: rotate(-13deg);
+    -ms-transform: rotate(-13deg);
+    transform: rotate(-13deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.btn_pointer__arrow {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 33rem;
+    height: 11.4rem;
+    margin-top: 5rem;
+    margin-left: -5rem;
+    -webkit-transform: rotate(13deg);
+    -ms-transform: rotate(13deg);
+    transform: rotate(13deg);
+}
+
+.hero_main {
+    position: relative;
+}
+
+.hero_img {
+    display: block;
+    max-width: 71em;
+    margin: 0 auto;
+    -webkit-filter: drop-shadow(0 0.1rem 9.4rem rgba(70, 161, 250, 0.27));
+    filter: drop-shadow(0 0.1rem 9.4rem rgba(70, 161, 250, 0.27));
+}
+
+.hero_text_item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 34rem;
+    font-size: 5.9rem;
+    line-height: 0.7;
+    font-family: "DansHandWriting", sans-serif;
+    letter-spacing: 0.3rem;
+    color: #191919;
+    -webkit-transform-origin: 50%;
+    -ms-transform-origin: 50%;
+    transform-origin: 50%;
+}
+.hero_text_item strong {
+    font-weight: 400;
+    color: #fe880d;
+}
+.hero_text_item:nth-child(1) {
+    margin-top: -22rem;
+    margin-left: -73rem;
+    -webkit-transform: rotate(-13deg);
+    -ms-transform: rotate(-13deg);
+    transform: rotate(-13deg);
+}
+.hero_text_item:nth-child(2) {
+    margin-top: 4rem;
+    margin-left: -69rem;
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+.hero_text_item:nth-child(3) {
+    margin-top: -21rem;
+    margin-left: 39rem;
+    -webkit-transform: rotate(21deg);
+    -ms-transform: rotate(21deg);
+    transform: rotate(21deg);
+}
+.hero_text_item:nth-child(4) {
+    margin-top: 6rem;
+    margin-left: 44rem;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.hero_logo {
+    display: block;
+    width: 20.4rem;
+    height: 4rem;
+    margin: 0 21rem 0 auto;
+}

@@ -19,6 +19,7 @@
 
 .header_logo_w {
     display: block;
+    margin-right: 2rem;
 }
 @media screen and (min-width: 1024px) {
     .header_logo_w {
