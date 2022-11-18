@@ -105,12 +105,31 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "c4cf1bd3-0d80-476f-9afa-e1091b73c891": {
+      "type": "what-they-said",
+      "blocks": {
+        "template--16951804920129__c4cf1bd3-0d80-476f-9afa-e1091b73c891-16687750581701f890-0": {
+          "type": "text",
+          "settings": {
+            "text": "Step 1:"
+          }
+        }
+      },
+      "block_order": [
+        "template--16951804920129__c4cf1bd3-0d80-476f-9afa-e1091b73c891-16687750581701f890-0"
+      ],
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
     "image_banner",
     "multicolumn",
     "rich_text",
-    "featured_collection"
+    "featured_collection",
+    "c4cf1bd3-0d80-476f-9afa-e1091b73c891"
   ]
 }
