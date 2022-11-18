@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+    min-height: 29rem;
+    padding: 4rem 2rem;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    font-size: 1rem;
+    will-change: transform;
+}
+@media screen and (max-width: 1023px) {
+    .footer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: #f3f3f3;
+        min-height: 15rem;
+    }
+}
+
+.footer_logo {
+    display: block;
+    width: 40.6rem;
+    height: 8rem;
+}
+@media screen and (max-width: 1023px) {
+    .footer_logo {
+        width: 19.8rem;
+        height: 3.8rem;
+        margin: 0 auto;
+    }
+}

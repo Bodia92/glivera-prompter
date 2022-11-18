@@ -1,0 +1,127 @@
+.step_w {
+    margin: -50rem -14rem -5rem 0;
+}
+@media screen and (max-width: 1023px) {
+    .step_w {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin: 0 -14rem -5rem 0;
+    }
+}
+
+.section.indent_mod {
+    padding: 0 2rem 15rem;
+}
+
+.step_decor {
+    position: absolute;
+    top: 35%;
+    left: -11.6rem;
+    width: 8rem;
+}
+.step_item_w:first-child .step_decor {
+    display: none;
+}
+
+.step_item_w {
+    position: relative;
+    padding: 0 14rem 5rem 0;
+}
+@media screen and (min-width: 1024px) {
+    .step_item_w {
+        width: 33.33%;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .step_item_w {
+        width: 100%;
+    }
+}
+
+.step_item {
+    width: 100%;
+}
+
+.step_title_w {
+    margin: 0 0 1.6rem;
+}
+@media screen and (min-width: 1025px) {
+    .step_title_w {
+        padding: 0 0 0 4rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .step_title_w {
+        padding: 0 0 0 3rem;
+    }
+}
+
+.step_value {
+    margin: 0 1rem 0 0;
+}
+@media screen and (min-width: 1024px) {
+    .step_value {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .step_value {
+        font-size: 1.6rem;
+    }
+}
+
+.step_title {
+    font-family: "DansHandWriting", sans-serif;
+    letter-spacing: 1.6px;
+    color: #fe880d;
+}
+@media screen and (min-width: 1024px) {
+    .step_title {
+        font-size: 5.4rem;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .step_title {
+        font-size: 3.2rem;
+    }
+}
+
+.img_w {
+    margin: 0 0 3rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+@media screen and (min-width: 641px) {
+    .img_w {
+        height: 24rem;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .img_w {
+        -webkit-box-shadow: 0 0 40px rgba(74, 163, 223, 0.7);
+        box-shadow: 0 0 40px rgba(74, 163, 223, 0.7);
+    }
+}
+@media screen and (max-width: 640px) {
+    .img_w {
+        height: 18rem;
+    }
+}
+
+.step_item_descr {
+    text-align: center;
+    color: #4a4a4a;
+    padding: 0 3rem;
+}
+@media screen and (min-width: 1024px) {
+    .step_item_descr {
+        font-size: 2.2rem;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .step_item_descr {
+        font-size: 1.6rem;
+    }
+}
