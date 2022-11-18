@@ -19,7 +19,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/step_1.png",
+            "image": "shopify:\/\/shop_images\/nav_1.jpg",
             "title": "Jot It Down!",
             "subtitle": "Step 1:",
             "text": "<p>Using dry-erase markers, jot down prompts to keep you focused on the most important details of your content.<\/p>",
@@ -30,7 +30,7 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/step_2.png",
+            "image": "shopify:\/\/shop_images\/step_1.png",
             "title": "Pop It Up!",
             "subtitle": "Step 2:",
             "text": "<p>Simply slide your Prompter Board over any lens using one of our SafeGrip® attachments. You are now ready to film!<\/p>",
@@ -66,7 +66,6 @@
         "text": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/review.png",
             "text": "This product has dramatically helped me stay focused, save substantial time and appear more confident behind the camera. This has been a life saver! - Jeremy Blossom"
           }
         }
